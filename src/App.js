@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Home from './components/Home';
+import Resume from './components/Resume';
+import Projects from './components/Projects';
+import Summary from './components/Summary';
+import NotFound from './components/NotFound';
+import Header from './components/Header'; // Header component
+import './styles.css';
 
-function App() {
+const App = () => {
+  const [currentPage, setCurrentPage] = useState('Home'); // Track the current page
+
+  // Function to render the correct component based on the currentPage state
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'Home':
+        return <Home />;
+      case 'Resume':
+        return <Resume />;
+      case 'Projects':
+        return <Projects />;
+      case 'Summary':
+        return <Summary />;
+      default:
+        return <NotFound />;
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="layout">
+      {/* Pass setCurrentPage function to the Header */}
+      <Header setCurrentPage={setCurrentPage} />
+      
+      <main style={{ padding: '10px 50px' }}>
+        {renderPage()} {/* Render the page based on the currentPage */}
+      </main>
+
+      <footer id="footer">
+        <h5>&copy; Thollarkings 2024</h5>
+      </footer>
     </div>
   );
-}
+};
 
 export default App;
