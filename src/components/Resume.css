@@ -1,0 +1,44 @@
+/* Base styles for the Resume component */
+.resume-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .resume-title {
+    color: white;
+    font-size: 2em; /* Adjust font size as needed */
+    margin-bottom: 20px;
+  }
+  
+  .resume-image {
+    width: 80%;
+    margin: 0;
+    display: block;
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
+  }
+  
+  /* Media Queries for responsive design */
+  
+  /* For screens 950px and smaller */
+  @media screen and (max-width: 950px) {
+    .resume-title {
+      font-size: 1.8em; /* Slightly smaller title on tablets */
+    }
+  
+    .resume-image {
+      width: 95%; /* Increase image width for tablets */
+    }
+  }
+  
+  /* For screens 780px and smaller (mobile) */
+  @media screen and (max-width: 780px) {
+    .resume-title {
+      font-size: 1.5em; /* Smaller title font for mobile screens */
+    }
+  
+    .resume-image {
+      width: 100%; /* Further increase image width for mobile */
+    }
+  }
+  

@@ -1,3 +1,4 @@
+/* General styles for .myIntro, .myProfSum, .mySkills */
 .myIntro, .myProfSum, .mySkills {
     background-color: #010229;
     color: aliceblue;
@@ -8,12 +9,56 @@
     width: 100%;
 }
 
+/* For small screens (up to 450px) */
+@media screen and (max-width: 450px) {
+    .parentContainer {
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 0;
+    }
 
-@media screen and (max-width: 768px) {
     .myIntro, .myProfSum, .mySkills {
-        font-size: 15px;
-        width: 100%;
-        margin: 5px;
-        align-content: center;
+        font-size: 12px; /* Smaller font size for very small screens */
+        width: 85%;
+        border-radius: 15px; /* Smaller border radius for compact screens */
+        margin: 15px 0 15px -20px; /* Vertical spacing */
+        padding: 10px; /* Less padding on small screens */
+    }
+}
+
+/* For medium screens (451px to 768px) */
+@media screen and (min-width: 451px) and (max-width: 768px) {
+    .parentContainer {
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 0;
+    }
+
+    .myIntro, .myProfSum, .mySkills {
+        font-size: 14px; /* Smaller font size for mobile/tablet */
+        width: 80%;
+        border-radius: 25px; /* Slightly smaller border radius */
+        margin: 15px 0 15px -10px; /* Vertical spacing */
+        padding: 15px; /* Reduced padding */
+    }
+}
+
+/* For larger screens (above 768px) */
+@media screen and (min-width: 769px) {
+    .parentContainer {
+        display: flex;
+        flex-direction: column; /* Align items horizontally */
+        justify-content: space-between; /* Space out the items */
+        padding: 0;
+    }
+
+    .myIntro, .myProfSum, .mySkills {
+        font-size: 18px; /* Larger font size for bigger screens */
+        width: 74%; /* Each item takes up 1/3 of the space */
+        border-radius: 30px; /* Medium border radius */
+        margin: 15px; /* Increased margin for better spacing */
+        padding: 20px; /* More padding for readability */
     }
 }

@@ -3,7 +3,7 @@ import './home.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className='parentContainer'>
       <div className='myIntro'>
         <h1>Name: Oyeniyi Omotola</h1>
         <h2>Contact Information:</h2>
