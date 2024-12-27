@@ -5,7 +5,7 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
-  width: 110%;
+  width: 100%;
   align-content: center;
 }
 
@@ -52,11 +52,11 @@ p {
 #footer {
   position: fixed;
   bottom: 20px; /* Adjusted for all screen sizes */
-  right: 60%; /* Adjusted for all screen sizes */
+  right: 30%; /* Adjusted for all screen sizes */
   width: 200px; /* Default width for smaller screens */
   height: auto; /* Height adjusts according to content */
   transform: rotate(-90deg); /* Rotate text 90 degrees */
-  background-color: rgba(72, 69, 90, 0);
+  background-color: rgba(72, 69, 90, 0.719);
   color: white;
   text-align: center; /* Center the text */
   line-height: 20px; /* Center text vertically */
