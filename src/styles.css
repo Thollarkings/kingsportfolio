@@ -3,15 +3,12 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  margin: 0;
-  padding: 20px;
   width: 100%;
   align-content: center;
 }
 
 .container {
   max-width: 800px;
-  margin: 0 auto;
   padding: 20px;
 }
 
@@ -37,7 +34,7 @@ p {
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 0;
 }
 
 .navbar a:hover {
@@ -46,13 +43,13 @@ p {
 
 .layout {
   background-color: rgb(72, 69, 90);
-  width: 110%;
+  width: 100%;
 }
 
 #footer {
   position: fixed;
-  bottom: 20px; /* Adjusted for all screen sizes */
-  right: 30%; /* Adjusted for all screen sizes */
+  bottom: 70px; /* Adjusted for all screen sizes */
+  left: 91%; /* Adjusted for all screen sizes */
   width: 200px; /* Default width for smaller screens */
   height: auto; /* Height adjusts according to content */
   transform: rotate(-90deg); /* Rotate text 90 degrees */
@@ -73,7 +70,7 @@ p {
 #footer {
   width: 150px; /* Smaller width for small mobile screens */
   bottom: 60px; /* Adjust bottom spacing for small screens */
-  right: 10px; /* Keep footer a bit away from the screen edge */
+  left: 310px; /* Keep footer a bit away from the screen edge */
 }
 
 #footer h5 {
@@ -88,7 +85,7 @@ p {
 #footer {
   width: 200px; /* Slightly larger footer for medium screens */
   bottom: 70px; /* Adjust bottom spacing */
-  right: 20px; /* Move the footer a bit to the right */
+  right: 0px; /* Move the footer a bit to the right */
 }
 
 #footer h5 {
@@ -96,16 +93,3 @@ p {
 }
 }
 
-/* For larger screens (above 768px) */
-@media screen and (min-width: 769px) {
-#footer {
-  width: 30%; /* Wider footer for larger screens */
-  bottom: 200px; /* Move the footer further up for larger screens */
-  right: 0; /* Move it more to the right for bigger screens */
-  
-}
-
-#footer h5 {
-  font-size: 1.2em; /* Larger text for better visibility */
-}
-}

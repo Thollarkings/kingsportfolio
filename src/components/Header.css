@@ -1,114 +1,45 @@
-/* General styles for .header and .menu */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; /* Start alignment */
-  padding: 10px 20px;
-  background-color: #01012b; /* Dark blue background */
-  color: white;
-}
-
 .menu {
-  list-style-type: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid layout */
+  gap: 2px; /* Space between tiles */
+  padding: 20px; /* Add padding around the grid */
+  list-style-type: none; /* Remove list styling */
   margin: 0;
-  padding: 0;
 }
 
 .menu li {
-  margin: 0 15px; /* Horizontal spacing between menu items */
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
 }
 
 .menu button {
-  color: white;
-  text-decoration: none;
-  font-size: 18px; /* Base font size for buttons */
-  padding: 15px 20px; /* Padding for clickable area */
-  background-color: #01012b; /* Match the background color */
-  border-radius: 10px; /* Rounded corners */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  width: 100%; /* Full width within the grid item */
+  height: 100px; /* Fixed height for tiles */
+  background-color: #01012b; /* Tile background color */
+  color: white; /* Text color */
+  font-size: 18px; /* Adjust font size */
+  border: none; /* Remove button borders */
+  border-radius: 0px; /* Optional: Rounded corners */
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Add hover effects */
 }
 
-.menu a:hover {
-  background-color: #555; /* Lighter color on hover */
-  text-decoration: underline; /* Underline on hover */
+.menu button:hover {
+  background-color: #4e0141; /* Lighter hover color */
+  transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
-/* For small screens (up to 450px) */
+@media screen and (max-width: 768px) {
+  .menu button {
+    height: 80px; /* Smaller tile height for smaller screens */
+    font-size: 16px; /* Adjust font size */
+  }
+}
+
 @media screen and (max-width: 450px) {
-  .header {
-    flex-direction: column; /* Stack header items vertically */
-    align-items: center; /* Center content */
-    padding: 0 0 0 0; /* Less padding for small screens */
-  }
-
-  .menu {
-    flex-direction: column; /* Change menu to vertical layout */
-    align-items: center;
-    width: 100%; /* Ensure menu takes full width */
-    padding: 0;
-  }
-
-  .menu li {
-    margin: 0 0 10px -70px; /* Vertical spacing for list items */
-  }
-
   .menu button {
-    width: 200%; /* Full-width buttons for easier tapping */
-    font-size: 16px; /* Smaller font size for small screens */
-    padding: 12px; /* Adjust padding */
-    margin: 10px 10px 0 -30px;
-
-  }
-}
-
-/* For medium screens (451px to 768px) */
-@media screen and (min-width: 451px) and (max-width: 768px) {
-  .header {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items */
-    padding: 10px 15px; /* Adjust padding */
-  }
-
-  .menu {
-    flex-direction: column; /* Change menu to vertical layout */
-    width: 100%; /* Full-width menu */
-    padding: 10px 0;
-  }
-
-  .menu li {
-    margin: 10px 0; /* Vertical spacing for list items */
-    margin: 10px 10px 0 -200px;
-  }
-
-  .menu button {
-    width: 200%; /* Full-width buttons */
-    font-size: 18px; /* Increase font size for readability */
-    padding: 15px; /* Adjust padding for larger touch targets */
-    margin: 10px 10px 0 -30px;
-  }
-}
-
-/* For larger screens (above 768px) */
-@media screen and (min-width: 769px) {
-  .header {
-    flex-direction: row; /* Arrange items horizontally */
-    justify-content: flex-start; /* Align items to the left */
-    padding: 15px 30px; /* More padding for larger screens */
-  }
-
-  .menu {
-    flex-direction: row; /* Keep menu horizontal */
-    margin-left: 20px; /* Add margin to separate the menu */
-  }
-
-  .menu li {
-    margin: 0 20px; /* Horizontal spacing for menu items */
-  }
-
-  .menu button {
-    width: auto; /* Auto-width for buttons */
-    font-size: 18px; /* Regular font size */
-    padding: 15px 20px; /* Regular padding for desktop view */
+    height: 70px; /* Further reduced height for very small screens */
+    font-size: 14px; /* Adjust font size */
   }
 }
