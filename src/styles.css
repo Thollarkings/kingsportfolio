@@ -85,7 +85,7 @@ p {
 #footer {
   width: 200px; /* Slightly larger footer for medium screens */
   bottom: 70px; /* Adjust bottom spacing */
-  right: 0px; /* Move the footer a bit to the right */
+  left: 75%; /* Move the footer a bit to the right */
 }
 
 #footer h5 {

@@ -38,7 +38,7 @@
 
     .myIntro, .myProfSum, .mySkills {
         font-size: 14px; /* Smaller font size for mobile/tablet */
-        width: 80%;
+        width: 96%;
         border-radius: 25px; /* Slightly smaller border radius */
         margin: 5px 0px 15px -5px; /* Vertical spacing */
         padding: 15px; /* Reduced padding */
