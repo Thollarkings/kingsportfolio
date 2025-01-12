@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/kingsportfolio/static/css/main.84fcf53a.css",
-    "main.js": "/kingsportfolio/static/js/main.f722eb67.js",
+    "main.css": "/kingsportfolio/static/css/main.f225288d.css",
+    "main.js": "/kingsportfolio/static/js/main.789ecd93.js",
     "static/js/488.8b71e507.chunk.js": "/kingsportfolio/static/js/488.8b71e507.chunk.js",
-    "static/media/myportfolio.png": "/kingsportfolio/static/media/myportfolio.ad16394e1bedef5fc1c8.png",
+    "static/media/myportfolio.png": "/kingsportfolio/static/media/myportfolio.b5831a59658c78e3708f.png",
+    "static/media/Invoicemax.png": "/kingsportfolio/static/media/Invoicemax.f8fac0ed323b33e5e987.png",
+    "static/media/Budgetapp.png": "/kingsportfolio/static/media/Budgetapp.4f1455db0f4aca12293a.png",
+    "static/media/react-basics.png": "/kingsportfolio/static/media/react-basics.553059f83f60dc0903e2.png",
+    "static/media/cloud-computing.png": "/kingsportfolio/static/media/cloud-computing.c1bb40e6aca6f60feeb2.png",
+    "static/media/js-basics.png": "/kingsportfolio/static/media/js-basics.8e7490990d176ec021d6.png",
+    "static/media/nodejs.png": "/kingsportfolio/static/media/nodejs.2bfddcfb1c7576f57375.png",
+    "static/media/react-dev.png": "/kingsportfolio/static/media/react-dev.0effec07ed460cec89b3.png",
+    "static/media/web-development.png": "/kingsportfolio/static/media/web-development.e8680b308a0f45ed7e2a.png",
+    "static/media/git-github.png": "/kingsportfolio/static/media/git-github.8b8e5edb45696bb2c3bd.png",
+    "static/media/python.png": "/kingsportfolio/static/media/python.5f30638843b3e9858e04.png",
+    "static/media/Tailorslogs.png": "/kingsportfolio/static/media/Tailorslogs.6dce487c4143e4cbeccb.png",
+    "static/media/Measurementrecorder.png": "/kingsportfolio/static/media/Measurementrecorder.75f59c4b1501dd271998.png",
+    "static/media/unitconverter.png": "/kingsportfolio/static/media/unitconverter.4ca2c2b7bde76368025a.png",
+    "static/media/simplecalculator.png": "/kingsportfolio/static/media/simplecalculator.d17652c71a59f149008d.png",
     "index.html": "/kingsportfolio/index.html",
-    "main.84fcf53a.css.map": "/kingsportfolio/static/css/main.84fcf53a.css.map",
-    "main.f722eb67.js.map": "/kingsportfolio/static/js/main.f722eb67.js.map",
+    "main.f225288d.css.map": "/kingsportfolio/static/css/main.f225288d.css.map",
+    "main.789ecd93.js.map": "/kingsportfolio/static/js/main.789ecd93.js.map",
     "488.8b71e507.chunk.js.map": "/kingsportfolio/static/js/488.8b71e507.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84fcf53a.css",
-    "static/js/main.f722eb67.js"
+    "static/css/main.f225288d.css",
+    "static/js/main.789ecd93.js"
   ]
 }
