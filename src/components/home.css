@@ -1,5 +1,5 @@
 /* General styles for .myIntro, .myProfSum, .mySkills */
-.myIntro, .myProfSum, .mySkills, .projects-container {
+.myIntro, .myProfSum, .mySkills {
     background-color: #010229;
     color: aliceblue;
     padding: 2%;
@@ -7,7 +7,24 @@
     font-size: 20px;
     margin-top: 2%;
     width: 100%;
+    
 }
+
+.projects-container {
+    background-color: #010229;
+    color: aliceblue;
+    padding: 2%;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 2%;
+    display: block;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    text-align: center; /* Centers text */
+    width: 80%; /* Adjust width as necessary */
+    margin: 0 auto; /* Centers the container horizontally */
+  }
+  
 
 /* For small screens (up to 450px) */
 @media screen and (max-width: 450px) {
