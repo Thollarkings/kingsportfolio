@@ -13,9 +13,7 @@ const Header = ({ setCurrentPage }) => {
     <li>
       <button onClick={() => setCurrentPage('Resume')}>Certifications / Resume</button>
     </li>
-    <li>
-      <button onClick={() => setCurrentPage('Projects')}>Projects</button>
-    </li>
+
 
   </ul>
 </nav>
