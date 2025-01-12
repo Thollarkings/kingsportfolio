@@ -11,14 +11,12 @@ const Header = ({ setCurrentPage }) => {
       <button onClick={() => setCurrentPage('Home')}>Home</button>
     </li>
     <li>
-      <button onClick={() => setCurrentPage('Resume')}>Resume</button>
+      <button onClick={() => setCurrentPage('Resume')}>Certifications / Resume</button>
     </li>
     <li>
       <button onClick={() => setCurrentPage('Projects')}>Projects</button>
     </li>
-    <li>
-      <button onClick={() => setCurrentPage('Summary')}>Summary</button>
-    </li>
+
   </ul>
 </nav>
 
