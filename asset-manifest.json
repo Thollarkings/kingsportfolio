@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kingsportfolio/static/css/main.f225288d.css",
-    "main.js": "/kingsportfolio/static/js/main.789ecd93.js",
+    "main.css": "/kingsportfolio/static/css/main.6fb58dc0.css",
+    "main.js": "/kingsportfolio/static/js/main.b78494f5.js",
     "static/js/488.8b71e507.chunk.js": "/kingsportfolio/static/js/488.8b71e507.chunk.js",
     "static/media/myportfolio.png": "/kingsportfolio/static/media/myportfolio.b5831a59658c78e3708f.png",
     "static/media/Invoicemax.png": "/kingsportfolio/static/media/Invoicemax.f8fac0ed323b33e5e987.png",
@@ -19,12 +19,12 @@
     "static/media/unitconverter.png": "/kingsportfolio/static/media/unitconverter.4ca2c2b7bde76368025a.png",
     "static/media/simplecalculator.png": "/kingsportfolio/static/media/simplecalculator.d17652c71a59f149008d.png",
     "index.html": "/kingsportfolio/index.html",
-    "main.f225288d.css.map": "/kingsportfolio/static/css/main.f225288d.css.map",
-    "main.789ecd93.js.map": "/kingsportfolio/static/js/main.789ecd93.js.map",
+    "main.6fb58dc0.css.map": "/kingsportfolio/static/css/main.6fb58dc0.css.map",
+    "main.b78494f5.js.map": "/kingsportfolio/static/js/main.b78494f5.js.map",
     "488.8b71e507.chunk.js.map": "/kingsportfolio/static/js/488.8b71e507.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f225288d.css",
-    "static/js/main.789ecd93.js"
+    "static/css/main.6fb58dc0.css",
+    "static/js/main.b78494f5.js"
   ]
 }
