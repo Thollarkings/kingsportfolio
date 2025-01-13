@@ -109,7 +109,7 @@
 
     .certification-thumbnail {
       width: 100%; /* Adjust size as needed */
-      margin-bottom: 10px;
+      margin-bottom: 2px;
       display: flex;
     
       
@@ -134,7 +134,7 @@
 
     .certification-thumbnail {
       width: 100%; /* Adjust size as needed */
-      margin-bottom: 10px;
+      margin-bottom: 0;
       display: flex;
     
       
