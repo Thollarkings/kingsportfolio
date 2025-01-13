@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import './Projects.css'; 
+import './Projects.css';
 import Invoicemax from '../images/Invoicemax.png';
 import Measurementrecorder from '../images/Measurementrecorder.png';
 import Simplecalculator from '../images/simplecalculator.png';
@@ -23,16 +23,16 @@ const Home = () => {
       <div className='myProfSum'>
         <h2>Professional Summary:</h2>
         <p>
-          Front-end developer with 5+ years of experience Web development and React.<br />
-          Skilled in building scalable, user-friendly applications.<br />
-          Transitioned from agricultural research to pursue software development.<br />
-          Seeking front-end role in forward-thinking IT company, particularly in SaaS or e-commerce.<br />
-          Actively engaged in professional development and open-source projects, expanding skills to<br />
+          Front-end developer with 5+ years of experience Web development and React.
+          Skilled in building scalable, user-friendly applications.
+          Transitioned from agricultural research to pursue software development.
+          Seeking front-end role in forward-thinking IT company, particularly in SaaS or e-commerce.
+          Actively engaged in professional development and open-source projects, expanding skills to
           become proficient backend developer and aspiring full-stack developer.
         </p>
-        
 
-        
+
+
       </div>
       <div className='mySkills'>
         <h2>Skills:</h2>
@@ -47,8 +47,8 @@ const Home = () => {
               <img
                 src={Invoicemax}
                 alt="InvoiceMax App Screenshot"
-                className="project-image"/>
-                <br />
+                className="project-image" />
+              <br />
             </a>
             <a href="https://bit.ly/invoicemax"><b>InvoiceMax</b></a>
             <p>Comprehensive invoicing application using React.</p>
@@ -58,8 +58,8 @@ const Home = () => {
               <img
                 src={Tailorslogs}
                 alt="Tailor's Logbook App Screenshot"
-                className="project-image"/>
-                <br />
+                className="project-image" />
+              <br />
             </a>
             <a href="https://rebrand.ly/tailors-log"><b>My Tailor's Logbook</b></a>
             <p>
@@ -72,8 +72,8 @@ const Home = () => {
               <img
                 src={Budgetapp}
                 alt="Budget App Screenshot"
-                className="project-image"/>
-                <br />
+                className="project-image" />
+              <br />
             </a>
             <a href="https://thollarkings.github.io/ejtos-react_budget_app/"><b>Budget App</b></a>
             <p>
@@ -87,8 +87,8 @@ const Home = () => {
               <img
                 src={Simplecalculator}
                 alt="Kings-Calc App Screenshot"
-                className="project-image"/>
-                <br />
+                className="project-image" />
+              <br />
             </a>
             <a href="https://thollarkings.github.io/Tollars-Calculator/"><b>Kings-Calc</b></a>
             <p>
@@ -102,8 +102,8 @@ const Home = () => {
               <img
                 src={Measurementrecorder}
                 alt="Measurements Recorder App Screenshot"
-                className="project-image"/>
-                <br />
+                className="project-image" />
+              <br />
             </a>
             <a href="https://thollarkings.github.io/Tailors_Log_Book/"><b>Measurements Recorder</b></a>
             <p>
@@ -116,8 +116,8 @@ const Home = () => {
               <img
                 src={Unitconverter}
                 alt="Unit Converter App Screenshot"
-                className="project-image"/>
-                <br />
+                className="project-image" />
+              <br />
             </a>
             <a href="https://thollarkings.github.io/Tailors_Log_Book/"><b>Unit Converter</b></a>
             <p>
