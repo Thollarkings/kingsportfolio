@@ -47,9 +47,8 @@ const Home = () => {
               <img
                 src={Invoicemax}
                 alt="InvoiceMax App Screenshot"
-                className="project-image"
-                style={{ width: '25%', borderRadius: '8px', marginBottom: '10px' }}
-              /><br />
+                className="project-image"/>
+                <br />
             </a>
             <a href="https://bit.ly/invoicemax"><b>InvoiceMax</b></a>
             <p>Comprehensive invoicing application using React.</p>
@@ -59,13 +58,12 @@ const Home = () => {
               <img
                 src={Tailorslogs}
                 alt="Tailor's Logbook App Screenshot"
-                className="project-image"
-                style={{ width: '25%', borderRadius: '8px', marginBottom: '10px' }}
-              /><br />
+                className="project-image"/>
+                <br />
             </a>
             <a href="https://rebrand.ly/tailors-log"><b>My Tailor's Logbook</b></a>
             <p>
-              This app is an essential tool for accurately recording client measurements,<br />
+              This app is an essential tool for accurately recording client measurements,
               tracking key details, and ensuring precise fittings and timely delivery.
             </p>
           </li>
@@ -74,13 +72,12 @@ const Home = () => {
               <img
                 src={Budgetapp}
                 alt="Budget App Screenshot"
-                className="project-image"
-                style={{ width: '25%', borderRadius: '8px', marginBottom: '10px' }}
-              /><br />
+                className="project-image"/>
+                <br />
             </a>
             <a href="https://thollarkings.github.io/ejtos-react_budget_app/"><b>Budget App</b></a>
             <p>
-              User-friendly budget management tool with React. This app is an essential<br />
+              User-friendly budget management tool with React. This app is an essential
               tool for accurately recording client measurements, tracking key details, and<br />
               ensuring precise fittings and timely delivery.
             </p>
@@ -90,13 +87,12 @@ const Home = () => {
               <img
                 src={Simplecalculator}
                 alt="Kings-Calc App Screenshot"
-                className="project-image"
-                style={{ width: '25%', borderRadius: '8px', marginBottom: '10px' }}
-              /><br />
+                className="project-image"/>
+                <br />
             </a>
             <a href="https://thollarkings.github.io/Tollars-Calculator/"><b>Kings-Calc</b></a>
             <p>
-              This app is a Simplest Working Calculator designed with React. Its primary<br />
+              This app is a Simplest Working Calculator designed with React. Its primary
               goal is to provide basic arithmetic operations and allow users to interact with<br />
               a clean, user-friendly interface.
             </p>
@@ -106,13 +102,12 @@ const Home = () => {
               <img
                 src={Measurementrecorder}
                 alt="Measurements Recorder App Screenshot"
-                className="project-image"
-                style={{ width: '25%', borderRadius: '8px', marginBottom: '10px' }}
-              /><br />
+                className="project-image"/>
+                <br />
             </a>
             <a href="https://thollarkings.github.io/Tailors_Log_Book/"><b>Measurements Recorder</b></a>
             <p>
-              This application serves as a measurement tracking tool, similar to the<br />
+              This application serves as a measurement tracking tool, similar to the
               My Tailor's Logbook app, this was developed using vanilla JavaScript.
             </p>
           </li>
@@ -121,15 +116,14 @@ const Home = () => {
               <img
                 src={Unitconverter}
                 alt="Unit Converter App Screenshot"
-                className="project-image"
-                style={{ width: '25%', borderRadius: '8px', marginBottom: '10px' }}
-              /><br />
+                className="project-image"/>
+                <br />
             </a>
             <a href="https://thollarkings.github.io/Tailors_Log_Book/"><b>Unit Converter</b></a>
             <p>
-              Unit Converter Web App is an interactive application designed to simplify<br />
+              Unit Converter Web App is an interactive application designed to simplify
               the process of converting values between different units of measurement.<br />
-              Using vanilla JavaScript, it provides a responsive and user-friendly interface<br />
+              Using vanilla JavaScript, it provides a responsive and user-friendly interface
               where users can input values in one unit and instantly see the equivalent value<br />
               in another.
             </p>
