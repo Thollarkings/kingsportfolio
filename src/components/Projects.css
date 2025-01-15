@@ -5,6 +5,10 @@
     padding: 0;
   }
   
+  .projects-container h2 {
+    color: rgb(83, 206, 243);
+  }
+
   .projects-list li {
     margin-bottom: 20px;
   }

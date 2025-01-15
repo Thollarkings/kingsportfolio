@@ -53,7 +53,7 @@ p {
   width: 100%; /* Default width for smaller screens */
   height: 10%; /* Height adjusts according to content */
   transform: rotate(-90deg); /* Rotate text 90 degrees */
-  background-color: rgb(72, 69, 90);
+  background-color: rgba(72, 69, 90, 0);
   color: white;
   text-align: center; /* Center the text */
   line-height: 20px; /* Center text vertically */
@@ -68,9 +68,12 @@ p {
 /* For small screens (up to 450px) */
 @media screen and (max-width: 450px) {
 #footer {
-  width: 150px; /* Smaller width for small mobile screens */
   bottom: 60px; /* Adjust bottom spacing for small screens */
-  left: 310px; /* Keep footer a bit away from the screen edge */
+  position: fixed;
+  bottom: 5%; /* Adjusted for all screen sizes */
+  left: 50%; /* Adjusted for all screen sizes */
+  width: 100%; /* Default width for smaller screens */
+  height: 10%; /* Height adjusts according to content */
 }
 
 #footer h5 {
@@ -82,11 +85,14 @@ p {
 
 /* For medium screens (451px to 768px) */
 @media screen and (min-width: 451px) and (max-width: 768px) {
-#footer {
-  width: 200px; /* Slightly larger footer for medium screens */
-  bottom: 70px; /* Adjust bottom spacing */
-  left: 75%; /* Move the footer a bit to the right */
-}
+  #footer {
+    bottom: 60px; /* Adjust bottom spacing for small screens */
+    position: fixed;
+    bottom: 5%; /* Adjusted for all screen sizes */
+    left: 50%; /* Adjusted for all screen sizes */
+    width: 100%; /* Default width for smaller screens */
+    height: 10%; /* Height adjusts according to content */
+  }
 
 #footer h5 {
   font-size: 1em; /* Regular font size for medium screens */

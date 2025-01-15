@@ -35,6 +35,13 @@
     height: 80px; /* Smaller tile height for smaller screens */
     font-size: 16px; /* Adjust font size */
   }
+
+  .header {
+    width: 99%;
+    display: inline-flexbox;
+    justify-content: center;
+   
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -45,7 +52,7 @@
   }
 
   .header {
-    width: 93%;
+    width: 99%;
     display: block;
     justify-content: center;
     align-items: right;
