@@ -1,6 +1,4 @@
-.projects-container {
-    color: rgb(255, 255, 255);
-  }
+
   
   .projects-list {
     list-style-type: none;
@@ -25,8 +23,8 @@
 
   .project-image {
     width: 40%;
-    border-radius: 20px;
-    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-bottom: 0;
     margin-top: 50px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Add smooth transition for hover effects */
   }
@@ -55,12 +53,5 @@
     }
   }
 
-  @media screen and (min-width: 451px) and (max-width: 768px) {
-    .project-image {
-    width: 80%;
-    border-radius: 10px;
-    margin-bottom: 5px;
-    margin-top: 50px;
-    }
-  }
+
 

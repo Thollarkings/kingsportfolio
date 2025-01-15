@@ -48,12 +48,12 @@ p {
 
 #footer {
   position: fixed;
-  bottom: 70px; /* Adjusted for all screen sizes */
-  left: 91%; /* Adjusted for all screen sizes */
-  width: 200px; /* Default width for smaller screens */
-  height: auto; /* Height adjusts according to content */
+  bottom: 5%; /* Adjusted for all screen sizes */
+  left: 50%; /* Adjusted for all screen sizes */
+  width: 100%; /* Default width for smaller screens */
+  height: 10%; /* Height adjusts according to content */
   transform: rotate(-90deg); /* Rotate text 90 degrees */
-  background-color: rgba(72, 69, 90, 0.719);
+  background-color: rgb(72, 69, 90);
   color: white;
   text-align: center; /* Center the text */
   line-height: 20px; /* Center text vertically */

@@ -1,30 +1,71 @@
 /* General styles for .myIntro, .myProfSum, .mySkills */
 .myIntro, .myProfSum, .mySkills {
-    background-color: #010229;
+    background-color: #12144c; /* Slightly lighter shade for project cards */
     color: aliceblue;
     padding: 2%;
-    border-radius: 40px;
+    border-radius: 20px;
     font-size: 20px;
     margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
+    border: 1px solid rgb(149, 129, 165);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.582);
+}
+.projtit {
+    grid-column: 1 / -1; /* Span the full width of the grid */
+    justify-self: center; /* Center horizontally */
+    align-self: start; /* Align to the top */
+    background-color: #01022965;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 0;
     width: 100%;
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 22px; /* Slightly larger text for emphasis */
+    margin-bottom: 20px; /* Add spacing below the title */
+    z-index: 10; /* Ensure it remains above project items */
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .projects-container {
-    background-color: #010229;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+    background-color: #695f80;
     color: aliceblue;
     padding: 2%;
-    border-radius: 40px;
+    border-radius: 20px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.473);
+    border: 1px solid rgb(175, 157, 190);
     font-size: 20px;
-    margin-top: 2%;
-    display: block;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    text-align: center; /* Centers text */
-    width: 80%; /* Adjust width as necessary */
-    margin: 0 auto; /* Centers the container horizontally */
-  }
-  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%; /* Adjust width as necessary */
+    position: relative;
+    text-align: center;
+}
+
+
+
+.project-item {
+    background-color: #12144c; /* Slightly lighter shade for project cards */
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(149, 129, 165);
+    font-size: 18px;
+    margin: 15px;
+    width: 400px;
+    height: 400px; 
+    max-width: 400px; /* Restrict max width for consistency */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.575);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
 
 /* For small screens (up to 450px) */
 @media screen and (max-width: 450px) {
@@ -39,8 +80,14 @@
         font-size: 12px; /* Smaller font size for very small screens */
         width: 100%;
         border-radius: 15px; /* Smaller border radius for compact screens */
-        margin: 5px 0px 15px -5px; /* Vertical spacing */
+        margin: 5px 0px 15px 0px; /* Vertical spacing */
         padding: 10px; /* Less padding on small screens */
+    }
+
+    .project-item {
+        font-size: 14px; /* Smaller font size for compact displays */
+        width: 100%; /* Full width on smaller screens */
+        margin: 10px auto; /* Center projects vertically */
     }
 }
 
@@ -57,25 +104,13 @@
         font-size: 14px; /* Smaller font size for mobile/tablet */
         width: 96%;
         border-radius: 25px; /* Slightly smaller border radius */
-        margin: 5px 0px 15px -5px; /* Vertical spacing */
+        margin: 10px auto; /* Vertical spacing */
         padding: 15px; /* Reduced padding */
     }
-}
 
-/* For larger screens (above 768px) */
-@media screen and (min-width: 769px) {
-    .parentContainer {
-        display: flex;
-        flex-direction: column; /* Align items horizontally */
-        justify-content: space-between; /* Space out the items */
-        padding: 0;
-    }
-
-    .myIntro, .myProfSum, .mySkills, .projects-container {
-        font-size: 18px; /* Larger font size for bigger screens */
-        width: 90%; /* Each item takes up 1/3 of the space */
-        border-radius: 30px; /* Medium border radius */
-        margin: 15px; /* Increased margin for better spacing */
-        padding: 20px; /* More padding for readability */
+    .project-item {
+        font-size: 16px; /* Adjust font size */
+        width: 90%; /* Slightly reduced width */
     }
 }
+
