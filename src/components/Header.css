@@ -41,5 +41,13 @@
   .menu button {
     height: 70px; /* Further reduced height for very small screens */
     font-size: 14px; /* Adjust font size */
+    
+  }
+
+  .header {
+    width: 93%;
+    display: block;
+    justify-content: center;
+    align-items: right;
   }
 }

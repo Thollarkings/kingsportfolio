@@ -78,16 +78,41 @@
 
     .myIntro, .myProfSum, .mySkills, .projects-container {
         font-size: 12px; /* Smaller font size for very small screens */
-        width: 100%;
+        width: 90%;
         border-radius: 15px; /* Smaller border radius for compact screens */
         margin: 5px 0px 15px 0px; /* Vertical spacing */
         padding: 10px; /* Less padding on small screens */
     }
 
+    .projects-container {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 15px; /* Reduce spacing */
+        font-size: 16px; /* Smaller font size for better fit */
+        padding: 10px; /* Reduce padding */
+        width: 95%; /* Full-width for small screens */
+    }
+
     .project-item {
         font-size: 14px; /* Smaller font size for compact displays */
-        width: 100%; /* Full width on smaller screens */
+        width: 80%; /* Full width on smaller screens */
+        height: auto;
         margin: 10px auto; /* Center projects vertically */
+    }
+
+    .projtit {
+        grid-column: 1 / -1; /* Span the full width of the grid */
+        justify-self: center; /* Center horizontally */
+        align-self: start; /* Align to the top */
+        background-color: #01022965;
+        color: aliceblue;
+        padding: 10px 20px;
+        border-radius: 0;
+        width: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        font-size: 22px; /* Slightly larger text for emphasis */
+        margin-bottom: 20px; /* Add spacing below the title */
+        z-index: 10; /* Ensure it remains above project items */
+        border: 1px solid rgb(0, 0, 0);
     }
 }
 
@@ -98,6 +123,20 @@
         flex-direction: column; /* Stack children vertically */
         align-items: flex-start; /* Align items to the left */
         padding: 0;
+
+    }
+    .project-item {
+        font-size: 14px; /* Smaller font size for compact displays */
+        width: 80%; /* Full width on smaller screens */
+        margin: 10px auto; /* Center projects vertically */
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Slightly smaller columns */
+        gap: 20px; /* Maintain spacing */
+        font-size: 18px; /* Slightly smaller font size */
+        padding: 15px; /* Adjust padding */
+        width: 95%; /* Adjust width to fit medium screens */
     }
 
     .myIntro, .myProfSum, .mySkills, .projects-container {
