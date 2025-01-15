@@ -15,16 +15,16 @@
     grid-column: 1 / -1; /* Span the full width of the grid */
     justify-self: center; /* Center horizontally */
     align-self: start; /* Align to the top */
-    background-color: #01022965;
+    background-color: #01022900;
     color: aliceblue;
     padding: 10px 20px;
     border-radius: 0;
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 1, 0.582);
     font-size: 22px; /* Slightly larger text for emphasis */
     margin-bottom: 20px; /* Add spacing below the title */
     z-index: 10; /* Ensure it remains above project items */
-    border: 1px solid rgb(163, 153, 187);
+    border: 1px solid rgba(163, 153, 187, 0.685);
 }
 
 .projects-container {
