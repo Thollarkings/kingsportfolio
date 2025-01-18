@@ -40,10 +40,10 @@ const Home = () => {
         <p><strong>Soft Skills:</strong> Problem-solving, teamwork, communication, project management, UI/UX, web design, graphic design ... . . .  .  .  .</p>
       </div>
 
-      
+
 
       <div className="projects-container">
-      <h1 className='projtit'>My Projects</h1>
+        <h1 className='projtit'>My Projects</h1>
         <div className="project-item">
           <a href="https://bit.ly/invoicemax" target="_blank" rel="noopener noreferrer">
             <img
@@ -117,7 +117,7 @@ const Home = () => {
               className="project-image"
             />
           </a>
-          <a href="https://thollarkings.github.io/Tollars-Calculator/">
+          <a href="https://thollarkings.github.io/simple-calculator/">
             <h2>Kings-Calc</h2>
           </a>
           <p>
@@ -138,7 +138,7 @@ const Home = () => {
             <h2>Unit Converter</h2>
           </a>
           <p>
-          Unit Converter React Web App is an interactive tool that simplifies the conversion of measurement units. It features a responsive, user-friendly interface that allows users to input values and instantly see their equivalents in another unit.
+            Unit Converter React Web App is an interactive tool that simplifies the conversion of measurement units. It features a responsive, user-friendly interface that allows users to input values and instantly see their equivalents in another unit.
           </p>
         </div>
 
