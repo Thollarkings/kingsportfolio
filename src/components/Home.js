@@ -134,15 +134,11 @@ const Home = () => {
               className="project-image"
             />
           </a>
-          <a href="https://thollarkings.github.io/Tailors_Log_Book/">
+          <a href="https://thollarkings.github.io/unit-converter/">
             <h2>Unit Converter</h2>
           </a>
           <p>
-            Unit Converter Web App is an interactive application designed to simplify
-            the process of converting values between different units of measurement.
-            Using vanilla JavaScript, it provides a responsive and user-friendly interface
-            where users can input values in one unit and instantly see the equivalent value
-            in another.
+          Unit Converter React Web App is an interactive tool that simplifies the conversion of measurement units. It features a responsive, user-friendly interface that allows users to input values and instantly see their equivalents in another unit.
           </p>
         </div>
 
