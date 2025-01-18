@@ -36,7 +36,7 @@ const App = () => {
       </main>
 
       <footer id="footer">
-        <h5>&copy; Thollarkings 2024</h5>
+        <h5>&copy; Thollarkings 2025</h5>
       </footer>
     </div>
   );
