@@ -53,7 +53,7 @@ const Home = () => {
           <a href="https://invoice-max-git-master-omotolas-projects-5dc9084e.vercel.app/">
             <h2>InvoiceMax</h2>
           </a>
-          <p>Comprehensive invoicing application using React.</p>
+          <p>InvoiceMax streamlines billing with customizable invoices, receipts, logo uploads, and watermark features for a professional, secure touch. Its user-friendly, responsive design ensures effortless financial management.</p>
         </div>
 
         <div className="project-item">
