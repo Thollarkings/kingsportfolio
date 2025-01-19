@@ -127,7 +127,7 @@ const Home = () => {
         </div>
 
         <div className="project-item">
-          <a href="https://thollarkings.github.io/Tailors_Log_Book/" target="_blank" rel="noopener noreferrer">
+          <a href="https://thollarkings.github.io/unit-converter/" target="_blank" rel="noopener noreferrer">
             <img
               src={Unitconverter}
               alt="Unit Converter App Screenshot"
