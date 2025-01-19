@@ -40,33 +40,47 @@ const Home = () => {
         <p><strong>Soft Skills:</strong> Problem-solving, teamwork, communication, project management, UI/UX, web design, graphic design ... . . .  .  .  .</p>
       </div>
 
-
-
       <div className="projects-container">
         <h1 className='projtit'>My Projects</h1>
         <div className="project-item">
-          <a href="https://bit.ly/invoicemax" target="_blank" rel="noopener noreferrer">
+          <a href="https://invoice-max-git-master-omotolas-projects-5dc9084e.vercel.app/" target="_blank" rel="noopener noreferrer">
             <img
               src={Invoicemax}
               alt="InvoiceMax App Screenshot"
               className="project-image"
             />
           </a>
-          <a href="https://bit.ly/invoicemax">
+          <a href="https://invoice-max-git-master-omotolas-projects-5dc9084e.vercel.app/">
             <h2>InvoiceMax</h2>
           </a>
           <p>Comprehensive invoicing application using React.</p>
         </div>
 
         <div className="project-item">
-          <a href="https://rebrand.ly/tailors-log" target="_blank" rel="noopener noreferrer">
+          <a href="https://thollarkings.github.io/unit-converter/" target="_blank" rel="noopener noreferrer">
+            <img
+              src={Unitconverter}
+              alt="Unit Converter App Screenshot"
+              className="project-image"
+            />
+          </a>
+          <a href="https://thollarkings.github.io/unit-converter/">
+            <h2>Unit Converter</h2>
+          </a>
+          <p>
+            Unit Converter React Web App is an interactive tool that simplifies the conversion of measurement units. It features a responsive, user-friendly interface that allows users to input values and instantly see their equivalents in another unit.
+          </p>
+        </div>
+
+        <div className="project-item">
+          <a href="https://thollarkings.github.io/mytailors-log/" target="_blank" rel="noopener noreferrer">
             <img
               src={Tailorslogs}
               alt="Tailor's Logbook App Screenshot"
               className="project-image"
             />
           </a>
-          <a href="https://rebrand.ly/tailors-log">
+          <a href="https://thollarkings.github.io/mytailors-log/">
             <h2>My Tailor's Logbook</h2>
           </a>
           <p>
@@ -76,14 +90,14 @@ const Home = () => {
         </div>
 
         <div className="project-item">
-          <a href="https://thollarkings.github.io/ejtos-react_budget_app/" target="_blank" rel="noopener noreferrer">
+          <a href="https://thollarkings.github.io/kings_budget_app/" target="_blank" rel="noopener noreferrer">
             <img
               src={Budgetapp}
               alt="Budget App Screenshot"
               className="project-image"
             />
           </a>
-          <a href="https://thollarkings.github.io/ejtos-react_budget_app/">
+          <a href="https://thollarkings.github.io/kings_budget_app/">
             <h2>Budget App</h2>
           </a>
           <p>
@@ -92,25 +106,9 @@ const Home = () => {
             ensuring precise fittings and timely delivery.
           </p>
         </div>
-        <div className="project-item">
-          <a href="https://thollarkings.github.io/Tailors_Log_Book/" target="_blank" rel="noopener noreferrer">
-            <img
-              src={Measurementrecorder}
-              alt="Measurements Recorder App Screenshot"
-              className="project-image"
-            />
-          </a>
-          <a href="https://thollarkings.github.io/Tailors_Log_Book/">
-            <h2>Measurements Recorder</h2>
-          </a>
-          <p>
-            This application serves as a measurement tracking tool. Similar to the
-            My Tailor's Logbook app, this was developed using vanilla JavaScript.
-          </p>
-        </div>
 
         <div className="project-item">
-          <a href="https://thollarkings.github.io/Tollars-Calculator/" target="_blank" rel="noopener noreferrer">
+          <a href="https://thollarkings.github.io/simple-calculator/" target="_blank" rel="noopener noreferrer">
             <img
               src={Simplecalculator}
               alt="Kings-Calc App Screenshot"
@@ -127,18 +125,19 @@ const Home = () => {
         </div>
 
         <div className="project-item">
-          <a href="https://thollarkings.github.io/unit-converter/" target="_blank" rel="noopener noreferrer">
+          <a href="https://thollarkings.github.io/Tailors_Log_Book/" target="_blank" rel="noopener noreferrer">
             <img
-              src={Unitconverter}
-              alt="Unit Converter App Screenshot"
+              src={Measurementrecorder}
+              alt="Measurements Recorder App Screenshot"
               className="project-image"
             />
           </a>
-          <a href="https://thollarkings.github.io/unit-converter/">
-            <h2>Unit Converter</h2>
+          <a href="https://thollarkings.github.io/Tailors_Log_Book/">
+            <h2>Measurements Recorder</h2>
           </a>
           <p>
-            Unit Converter React Web App is an interactive tool that simplifies the conversion of measurement units. It features a responsive, user-friendly interface that allows users to input values and instantly see their equivalents in another unit.
+            This application serves as a measurement tracking tool. Similar to the
+            My Tailor's Logbook app, this was developed using vanilla JavaScript.
           </p>
         </div>
 
