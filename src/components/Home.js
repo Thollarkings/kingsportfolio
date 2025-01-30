@@ -43,14 +43,14 @@ const Home = () => {
       <div className="projects-container">
         <h1 className='projtit'>My Projects</h1>
         <div className="project-item">
-          <a href="https://invoice-max-git-master-omotolas-projects-5dc9084e.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <a href="https://thollarkings.github.io/InvoiceMax/" target="_blank" rel="noopener noreferrer">
             <img
               src={Invoicemax}
               alt="InvoiceMax App Screenshot"
               className="project-image"
             />
           </a>
-          <a href="https://invoice-max-git-master-omotolas-projects-5dc9084e.vercel.app/">
+          <a href="https://thollarkings.github.io/InvoiceMax/">
             <h2>InvoiceMax</h2>
           </a>
           <p>InvoiceMax streamlines billing with customizable invoices, receipts, logo uploads, and watermark features for a professional, secure touch. Its user-friendly, responsive design ensures effortless financial management.</p>

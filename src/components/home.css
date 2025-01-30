@@ -119,7 +119,7 @@
 }
 
 /* For medium screens (451px to 768px) */
-@media screen and (min-width: 451px) and (max-width: 768px) {
+@media screen and (min-width: 451px) and (max-width: 850px) {
     .parentContainer {
         display: flex;
         flex-direction: column; /* Stack children vertically */

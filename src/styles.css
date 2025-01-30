@@ -84,7 +84,7 @@ p {
 }
 
 /* For medium screens (451px to 768px) */
-@media screen and (min-width: 451px) and (max-width: 768px) {
+@media screen and (min-width: 451px) and (max-width: 850px) {
   #footer {
     bottom: 60px; /* Adjust bottom spacing for small screens */
     position: fixed;
