@@ -1,0 +1,175 @@
+/* General styles for .myIntro, .myProfSum, .mySkills */
+.myIntro, .myProfSum, .mySkills {
+    background-color: #12144c; /* Slightly lighter shade for project cards */
+    color: aliceblue;
+    padding: 2%;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
+    border: 1px solid rgb(149, 129, 165);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.582);
+}
+.projtit {
+    grid-column: 1 / -1; /* Span the full width of the grid */
+    justify-self: center; /* Center horizontally */
+    align-self: start; /* Align to the top */
+    background-color: #01022900;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 1, 0.582);
+    font-size: 22px; /* Slightly larger text for emphasis */
+    margin-bottom: 20px; /* Add spacing below the title */
+    z-index: 10; /* Ensure it remains above project items */
+    border: 1px solid rgba(163, 153, 187, 0.685);
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+    background-color: #695f80;
+    color: aliceblue;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.473);
+    border: 1px solid rgb(175, 157, 190);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%; /* Adjust width as necessary */
+    position: relative;
+    text-align: center;
+}
+
+
+
+.project-item {
+    background-color: #12144c; /* Slightly lighter shade for project cards */
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(149, 129, 165);
+    font-size: 18px;
+    margin: 15px;
+    width: 400px;
+    height: 400px; 
+    max-width: 400px; /* Restrict max width for consistency */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.575);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* For small screens (up to 450px) */
+@media screen and (max-width: 450px) {
+    .parentContainer {
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 0;
+    }
+
+    .myIntro, .myProfSum, .mySkills, .projects-container {
+        font-size: 12px; /* Smaller font size for very small screens */
+        width: 90%;
+        border-radius: 15px; /* Smaller border radius for compact screens */
+        margin: 5px 0px 15px 0px; /* Vertical spacing */
+        padding: 10px; /* Less padding on small screens */
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 15px; /* Reduce spacing */
+        font-size: 16px; /* Smaller font size for better fit */
+        padding: 10px; /* Reduce padding */
+        width: 95%; /* Full-width for small screens */
+    }
+
+    .project-item {
+        font-size: 14px; /* Smaller font size for compact displays */
+        width: 80%; /* Full width on smaller screens */
+        height: auto;
+        margin: 10px auto; /* Center projects vertically */
+    
+    }
+
+    .projtit {
+        grid-column: 1 / -1; /* Span the full width of the grid */
+        justify-self: center; /* Center horizontally */
+        align-self: start; /* Align to the top */
+        background-color: #0d0e49;
+        color: aliceblue;
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: 90%;
+        box-shadow: 0 8px 8px rgba(0, 0, 0, 0.466);
+        border: 1px solid rgb(149, 129, 165);
+        font-size: 22px; /* Slightly larger text for emphasis */
+        margin-bottom: 20px; /* Add spacing below the title */
+        z-index: 10; /* Ensure it remains above project items */
+        border: 1px solid rgb(164, 155, 173);
+    }
+}
+
+/* For medium screens (451px to 768px) */
+@media screen and (min-width: 451px) and (max-width: 850px) {
+    .parentContainer {
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 0;
+
+    }
+    .project-item {
+        font-size: 14px; /* Smaller font size for compact displays */
+        width: 80%; /* Full width on smaller screens */
+        height: auto;
+        margin: 10px auto; /* Center projects vertically */
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 15px; /* Reduce spacing */
+        font-size: 16px; /* Smaller font size for better fit */
+        padding: 10px; /* Reduce padding */
+        width: 95%; /* Full-width for small screens */
+    }
+
+    .myIntro, .myProfSum, .mySkills, .projects-container {
+        font-size: 14px; /* Smaller font size for mobile/tablet */
+        width: 96%;
+        border-radius: 25px; /* Slightly smaller border radius */
+        margin: 10px auto; /* Vertical spacing */
+        padding: 15px; /* Reduced padding */
+    }
+
+    .project-item {
+        font-size: 16px; /* Adjust font size */
+        width: 90%; /* Slightly reduced width */
+    }
+
+    .projtit {
+        grid-column: 1 / -1; /* Span the full width of the grid */
+        justify-self: center; /* Center horizontally */
+        align-self: start; /* Align to the top */
+        background-color: #0d0e49;
+        color: aliceblue;
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: 90%;
+        box-shadow: 0 8px 8px rgba(0, 0, 0, 0.466);
+        border: 1px solid rgb(149, 129, 165);
+        font-size: 22px; /* Slightly larger text for emphasis */
+        margin-bottom: 20px; /* Add spacing below the title */
+        z-index: 10; /* Ensure it remains above project items */
+        border: 1px solid rgb(164, 155, 173);
+    }
+}
+

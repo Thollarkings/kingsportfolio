@@ -1,0 +1,101 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  width: 100%;
+  align-content: center;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.layout {
+  background-color: rgb(72, 69, 90);
+  width: 100%;
+}
+
+#footer {
+  position: fixed;
+  bottom: 5%; /* Adjusted for all screen sizes */
+  left: 50%; /* Adjusted for all screen sizes */
+  width: 100%; /* Default width for smaller screens */
+  height: 10%; /* Height adjusts according to content */
+  transform: rotate(-90deg); /* Rotate text 90 degrees */
+  background-color: rgba(72, 69, 90, 0);
+  color: white;
+  text-align: center; /* Center the text */
+  line-height: 20px; /* Center text vertically */
+  padding: 10px;
+}
+
+#footer h5 {
+  font-size: 1em; /* Default font size for smaller screens */
+  margin: 0; /* No margin around the text */
+}
+
+/* For small screens (up to 450px) */
+@media screen and (max-width: 450px) {
+#footer {
+  bottom: 60px; /* Adjust bottom spacing for small screens */
+  position: fixed;
+  bottom: 5%; /* Adjusted for all screen sizes */
+  left: 50%; /* Adjusted for all screen sizes */
+  width: 100%; /* Default width for smaller screens */
+  height: 10%; /* Height adjusts according to content */
+}
+
+#footer h5 {
+  font-size: 0.9em; /* Smaller text for small mobile screens */
+}
+
+
+}
+
+/* For medium screens (451px to 768px) */
+@media screen and (min-width: 451px) and (max-width: 850px) {
+  #footer {
+    bottom: 60px; /* Adjust bottom spacing for small screens */
+    position: fixed;
+    bottom: 5%; /* Adjusted for all screen sizes */
+    left: 50%; /* Adjusted for all screen sizes */
+    width: 100%; /* Default width for smaller screens */
+    height: 10%; /* Height adjusts according to content */
+  }
+
+#footer h5 {
+  font-size: 1em; /* Regular font size for medium screens */
+}
+}
+

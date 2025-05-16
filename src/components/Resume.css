@@ -1,0 +1,151 @@
+/* Base styles for the Resume component */
+.resume-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .resume-title {
+    color: white;
+    font-size: 2em; /* Adjust font size as needed */
+    margin-bottom: 20px;
+  }
+  
+  .resume-image {
+    width: 20%;
+    margin: 0 auto; /* This centers the image horizontally */
+    display: block; /* Ensures the image behaves like a block element */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto;
+  }
+  
+
+
+  .download-container {
+    display: flex;
+    justify-content: center; /* Aligns the button to the left */
+    padding: 10px 0;
+  }
+  
+  .download-button {
+    padding: 10px 20px;
+    margin-left: 12px;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #02172e;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+.download-button:hover {
+  background-color: #122d4b;
+}
+
+.certifications-container {
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: larger;
+}
+
+.certifications-container h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  
+}
+
+.certifications-list {
+  list-style: none;
+  padding: 0;
+}
+
+.certifications-list li {
+  margin-bottom: 60px;
+}
+
+.certifications-list a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease, font-size 0.3s ease, font-weight 0.3s ease; /* Added transition */
+}
+
+.certifications-list a:hover {
+  text-decoration: underline;
+  font-size: 1.3rem;
+  color: #4ae4ff;
+  font-weight: bold; /* Make the text bold on hover */
+  background-color: rgba(74, 228, 255, 0.2); /* Optional: Add a light background color on hover */
+  padding: 5px; /* Optional: Add padding for better spacing */
+}
+
+
+.certification-thumbnail {
+  width: 40%; /* Adjust size as needed */
+  margin-bottom: 10px;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; 
+  box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.753); 
+  filter: brightness(1.1); /* Brighten the image */
+}
+
+.certification-thumbnail:hover {
+  transform: scale(1.05); /* Slightly enlarge the thumbnail */
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.9); /* Increase shadow on hover */
+}
+
+
+
+  /* Media Queries for responsive design */
+  
+  /* For screens 950px and smaller */
+  @media screen and (max-width: 950px) {
+    .resume-title {
+      font-size: 1.8em; /* Slightly smaller title on tablets */
+    }
+  
+    .resume-image {
+      width: 95%; /* Increase image width for tablets */
+    }
+
+    .download-container {
+      display: flex;
+      justify-content: center; /* Aligns the button to the left */
+      padding: 10px 0;
+    }
+
+    .certification-thumbnail {
+      width: 100%; /* Adjust size as needed */
+      margin-bottom: 0;
+      display: flex;
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.473);
+      border-radius: 8px; /* Optional: adds rounded corners with the shadow */
+      overflow: hidden; /* Ensures border-radius clips the image */
+    }
+  }
+  
+  /* For screens 780px and smaller (mobile) */
+  @media screen and (max-width: 780px) {
+    .resume-title {
+      font-size: 1.5em; /* Smaller title font for mobile screens */
+    }
+  
+    .resume-image {
+      width: 100%; /* Further increase image width for mobile */
+    }
+
+    .download-container {
+      display: flex;
+      justify-content: center; /* Aligns the button to the left */
+      padding: 10px 0;
+    }
+    .certification-thumbnail {
+      width: 100%; /* Adjust size as needed */
+      margin-bottom: 0;
+      display: flex;
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.473);
+      border-radius: 8px; /* Optional: adds rounded corners with the shadow */
+      overflow: hidden; /* Ensures border-radius clips the image */
+    }
+  }
+  

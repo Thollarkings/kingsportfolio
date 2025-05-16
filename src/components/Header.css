@@ -1,0 +1,60 @@
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid layout */
+  gap: 2px; /* Space between tiles */
+  padding: 20px; /* Add padding around the grid */
+  list-style-type: none; /* Remove list styling */
+  margin: 0;
+}
+
+.menu li {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+}
+
+.menu button {
+  width: 100%; /* Full width within the grid item */
+  height: 100px; /* Fixed height for tiles */
+  background-color: #01012b; /* Tile background color */
+  color: white; /* Text color */
+  font-size: 18px; /* Adjust font size */
+  border: none; /* Remove button borders */
+  border-radius: 0px; /* Optional: Rounded corners */
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Add hover effects */
+}
+
+.menu button:hover {
+  background-color: #4e0141; /* Lighter hover color */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .menu button {
+    height: 80px; /* Smaller tile height for smaller screens */
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .header {
+    width: 99%;
+    display: inline-flexbox;
+    justify-content: center;
+   
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .menu button {
+    height: 70px; /* Further reduced height for very small screens */
+    font-size: 14px; /* Adjust font size */
+    
+  }
+
+  .header {
+    width: 99%;
+    display: block;
+    justify-content: center;
+    align-items: right;
+  }
+}
